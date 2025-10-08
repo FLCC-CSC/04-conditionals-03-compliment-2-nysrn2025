@@ -1,8 +1,9 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: KEVIN LEE
+# DATE: 10/3/2025
+# BRIEF DESCRIPTION: This program asks the user if they want a compliment and responds with custom messages for exact 'yes' vs any other input
+
 
 
 
@@ -15,7 +16,17 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+# Ask user if they want a compliment
+user_input = input("Would you like a compliment? ")
 
+# Check if input is exactly "yes" (lowercase)
+if user_input == 'yes':
+    print("You have wonderful eyes.")
+    print("Thank you for playing.")
+else:
+    # For any other input, show custom message
+    print("No compliment for you!")
+    print("Thank you for playing.")yield
 
 
 
@@ -71,7 +82,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
+No
 
 
 
